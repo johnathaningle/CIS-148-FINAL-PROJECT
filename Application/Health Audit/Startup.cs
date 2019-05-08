@@ -11,6 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Health_Audit.Data;
 using Health_Audit.Services;
+using Pomelo.EntityFrameworkCore.MySql;
+using Pomelo.EntityFrameworkCore.MySql.Internal;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace Health_Audit
 {
@@ -27,7 +30,8 @@ namespace Health_Audit
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql("Server=localhost;database=healthcare;User=root;Password=Password1;",
+                mySqlOptions => { mySqlOptions.ServerVersion(new Version(5, 7), ServerType.MySql); }));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()

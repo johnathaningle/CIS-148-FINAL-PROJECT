@@ -1,0 +1,12 @@
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\app.db
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\Health Audit.deps.json
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\Health Audit.runtimeconfig.json
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\Health Audit.runtimeconfig.dev.json
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\Health Audit.dll
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\bin\Debug\netcoreapp2.0\Health Audit.pdb
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\Health Audit.csproj.CoreCompileInputs.cache
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\Health Audit.AssemblyInfoInputs.cache
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\Health Audit.AssemblyInfo.cs
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\Health Audit.dll
+C:\src\CIS-148-FINAL-PROJECT\Application\Health Audit\obj\Debug\netcoreapp2.0\Health Audit.pdb
